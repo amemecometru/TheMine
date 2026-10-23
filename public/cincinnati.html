@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Mine — Verified Cincinnati Contractors</title>
+  <meta name="description" content="We verify and recommend the best local contractors in Cincinnati. Every business on The Mine has been field-verified — no more guessing.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+    .hero { text-align: center; padding: 60px 0 40px; }
+    .hero h1 { font-size: 2.5rem; color: #fff; margin-bottom: 16px; }
+    .hero h1 .highlight { color: #f0b429; }
+    .hero p { font-size: 1.2rem; color: #999; max-width: 600px; margin: 0 auto 30px; }
+    .badges { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 40px; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #1a1a1a; border: 1px solid #333;
+      padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; color: #aaa;
+    }
+    .badge .icon { color: #f0b429; }
+    .features { display: grid; gap: 24px; margin: 40px 0; }
+    .feature {
+      background: #111; border: 1px solid #222; border-radius: 12px;
+      padding: 24px;
+    }
+    .feature h3 { color: #f0b429; margin-bottom: 8px; font-size: 1.1rem; }
+    .feature p { color: #888; font-size: 0.95rem; }
+    .subscribe {
+      background: #111; border: 1px solid #f0b429; border-radius: 12px;
+      padding: 40px; text-align: center; margin: 40px 0;
+    }
+    .subscribe h2 { color: #fff; margin-bottom: 12px; }
+    .subscribe p { color: #999; margin-bottom: 24px; }
+    .subscribe-form {
+      display: flex; flex-direction: column; gap: 12px; max-width: 400px; margin: 0 auto;
+    }
+    .subscribe-form input, .subscribe-form select {
+      background: #0a0a0a; border: 1px solid #333; color: #fff;
+      padding: 12px 16px; border-radius: 8px; font-size: 1rem; width: 100%;
+    }
+    .subscribe-form input:focus, .subscribe-form select:focus {
+      outline: none; border-color: #f0b429;
+    }
+    .subscribe-form button {
+      background: #f0b429; color: #0a0a0a; border: none;
+      padding: 14px 24px; border-radius: 8px; font-size: 1rem;
+      font-weight: 600; cursor: pointer; transition: background 0.2s;
+    }
+    .subscribe-form button:hover { background: #ffd450; }
+    .subscribe-form .row { display: flex; gap: 12px; }
+    .subscribe-form .row > * { flex: 1; }
+    .success-msg { color: #4ade80; margin-top: 12px; display: none; }
+    .error-msg { color: #f87171; margin-top: 12px; display: none; }
+    .ask-section { text-align: center; padding: 40px 0; border-top: 1px solid #222; }
+    .ask-section h2 { color: #fff; margin-bottom: 16px; }
+    .ask-section p { color: #999; margin-bottom: 20px; }
+    .ask-examples {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+    }
+    .ask-example {
+      background: #1a1a1a; border: 1px solid #333; border-radius: 8px;
+      padding: 10px 16px; color: #aaa; font-size: 0.9rem;
+    }
+    .ask-example strong { color: #f0b429; }
+    footer { text-align: center; padding: 40px 0; color: #555; font-size: 0.85rem; }
+    footer a { color: #777; text-decoration: none; }
+    footer a:hover { color: #f0b429; }
+  </style>
+
+  <!-- Facebook Pixel — replace PIXEL_ID with your Meta Pixel ID -->
+  <!-- <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'PIXEL_ID');
+    fbq('track', 'PageView');
+  </script> -->
+  <!-- <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=PIXEL_ID&ev=PageView&noscript=1"/></noscript> -->
+  <!-- End Facebook Pixel -->
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>The <span class="highlight">Mine</span></h1>
+      <p>Verified local contractors in Cincinnati. We don't just list businesses — we verify them. Every contractor on The Mine has been field-checked for active operations, professional presence, and real reputation.</p>
+      <div class="badges">
+        <span class="badge"><span class="icon">✓</span> Field-Verified</span>
+        <span class="badge"><span class="icon">✓</span> Viability Scored</span>
+        <span class="badge"><span class="icon">✓</span> AI-Ready</span>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h3>🔍 How We Verify</h3>
+        <p>We visit businesses in person, check their websites, verify their phone numbers, and assess their professional presence. Each contractor gets a viability score from 0-100 based on real signals — not just reviews.</p>
+      </div>
+      <div class="feature">
+        <h3>🤖 Ask Any AI Assistant</h3>
+        <p>Ask Muse, ChatGPT, Perplexity, or any AI assistant: "Find me a verified painter in Cincinnati" — and get our field-verified recommendations instantly. We're the data layer behind the recommendations.</p>
+      </div>
+      <div class="feature">
+        <h3>🏠 For Homeowners</h3>
+        <p>No more scrolling through 20 contractors and guessing. We've already done the research. You get the 3 worth calling — and only the ones that are actually in business and doing good work.</p>
+      </div>
+    </div>
+
+    <div class="subscribe">
+      <h2>Get Notified</h2>
+      <p>We're adding new verified contractors every week. Get notified when we verify businesses in your area.</p>
+      <form class="subscribe-form" id="subscribeForm">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name (optional)">
+          <select name="interests">
+            <option value="">What do you need?</option>
+            <option value="painter">Painter</option>
+            <option value="plumber">Plumber</option>
+            <option value="hvac">HVAC / AC Repair</option>
+            <option value="electrician">Electrician</option>
+            <option value="roofer">Roofer</option>
+            <option value="landscaping">Landscaping</option>
+            <option value="handyman">Handyman</option>
+            <option value="general_contractor">General Contractor</option>
+            <option value="fencing">Fencing</option>
+            <option value="gutter">Gutters</option>
+            <option value="tree_removal">Tree Removal</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="flooring">Flooring</option>
+            <option value="drywall">Drywall</option>
+          </select>
+        </div>
+        <input type="hidden" name="city" value="Cincinnati">
+        <input type="hidden" name="state" value="OH">
+        <input type="hidden" name="source" value="landing_page">
+        <button type="submit">Notify Me</button>
+        <div class="success-msg" id="successMsg">✓ You're on the list! We'll let you know when we verify new contractors in Cincinnati.</div>
+        <div class="error-msg" id="errorMsg">Something went wrong. Please try again.</div>
+      </form>
+    </div>
+
+    <div class="ask-section">
+      <h2>Try It Now</h2>
+      <p>Ask any AI assistant for a verified contractor:</p>
+      <div class="ask-examples">
+        <div class="ask-example">"Find me a verified <strong>painter</strong> in Cincinnati"</div>
+        <div class="ask-example">"I need a <strong>plumber</strong> in Cincinnati, who's worth calling?"</div>
+        <div class="ask-example">"Best <strong>HVAC</strong> repair in Cincinnati?"</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>The Mine — mine.logiclemonai.com</p>
+      <p>Verified local contractors for Cincinnati, OH · Expanding to more cities soon</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('subscribeForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+      const successMsg = document.getElementById('successMsg');
+      const errorMsg = document.getElementById('errorMsg');
+
+      try {
+        const response = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: formData.get('email'),
+            name: formData.get('name'),
+            city: formData.get('city'),
+            state: formData.get('state'),
+            interests: formData.get('interests'),
+            source: formData.get('source'),
+          }),
+        });
+        const data = await response.json();
+        if (response.ok) {
+          successMsg.style.display = 'block';
+          errorMsg.style.display = 'none';
+          form.reset();
+        } else {
+          errorMsg.style.display = 'block';
+          successMsg.style.display = 'none';
+        }
+      } catch (err) {
+        errorMsg.style.display = 'block';
+        successMsg.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

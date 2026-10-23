@@ -1,0 +1,34 @@
+name = "the-mine-api"
+main = "src/index.js"
+compatibility_date = "2024-09-25"
+
+# Custom Domain — mine.logiclemonai.com
+[[routes]]
+pattern = "mine.logiclemonai.com"
+custom_domain = true
+
+# D1 Database — The Mine's core data store
+[[d1_databases]]
+binding = "THE_MINE_DB"
+database_name = "the-mine"
+database_uuid = "c82c1ed2-9cb9-4b55-884c-cb3427c559e9"
+
+# KV Namespace — Query caching & rate limiting
+[[kv_namespaces]]
+binding = "CACHE"
+id = "fa5895e4f7fe4dcd839c75dcbd149592"
+
+# Email Sending binding — sends from outreach@mine.logiclemonai.com
+[[send_email]]
+name = "EMAIL"
+
+# Static Assets — serves public/ directory (cincinnati.html, etc.)
+# run_worker_first ensures /api/* routes hit the Worker before checking assets
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api", "/api/*"]
+
+# Observability
+[observability]
+enabled = true
