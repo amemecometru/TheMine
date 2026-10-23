@@ -1,0 +1,9 @@
+.env
+.env/*
+wrangler.toml
+wrangler.jsonc
+node_modules
+package-lock.json
+.dev.vars
+.wrangler
+
